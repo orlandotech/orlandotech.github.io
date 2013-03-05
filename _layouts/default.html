@@ -7,14 +7,24 @@
         <link rel "shortcut icon" href="">
         <link rel="stylesheet" type="text/css" href="/components/normalize-css/normalize.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+        <!-- TYPEKIT -->
+        <script type="text/javascript" src="//use.typekit.net/tsm2ejn.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     </head>
     <body>
     	<header>
-			<nav>
-				<a href="/">Home</a>
-				<a href="/#about">About</a>
-				<a href="/blog">Blog</a>
-			</nav>
+            <div class='container'>
+                <a href='/' class='logo'>Orlando<span>Tech</span></a>
+    			<nav>
+    				<a href="/">Meetup</a>
+    				<a href="/#groups">Groups</a>
+    				<a href="/#forum">Forum</a>
+                    <a href="/#built">Built In</a>
+                    <a href="/blog">Blog</a>
+    			</nav>
+            </div>
 		</header>
 		<main>
         	{{ content }}

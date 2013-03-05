@@ -1,3 +1,46 @@
+/* Container */
+.container {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Header */
+header {
+	background-color: #fff;
+	border-bottom: 1px solid #cfcfcf;
+	height: 60px;
+}
+
+header .logo {
+	font-family: "freight-sans-pro" helvetica, sans-serif;
+	float: left;
+	line-height: 60px;
+	font-size: 1.5em;
+}
+
+header span {
+	color: #A840a8;
+}
+
+header a {
+	float: left;
+	color: #323232;
+	text-decoration: none;
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+header a:hover {
+	color: #dfdfdf;
+}
+
+nav {
+	float: right;
+	line-height: 60px;
+}
+
 body {
 	background: #fff;
 }
