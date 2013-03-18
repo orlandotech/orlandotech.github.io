@@ -14,20 +14,27 @@
 
     </head>
     <body>
-    	<header>
-            <div class='container'>
-                <a href='/' class='logo'>Orlando<span>Tech</span></a>
-    			<nav>
-    				<a href="/">Meetup</a>
-    				<a href="/#groups">Groups</a>
-    				<a href="/#forum">Forum</a>
-                    <a href="/#built">Built In</a>
-                    <a href="/blog">Blog</a>
-    			</nav>
-            </div>
-		</header>
-		<main>
-        	{{ content }}
-        </main>
+        <div class="wrapper">
+        	<header>
+                <div>
+                    <div><a href='/' class='logo'>Orlando Tech</a></div>
+        			<nav>
+                        <ul>
+            				<li><a href="/meetup">Meetup</a></li>
+            				<li><a href="/groups">Groups</a></li>
+            				<li><a href="/forum">Forum</a></li>
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="/built">Built In</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                        </ul>
+        			</nav>
+                </div>
+    		</header>
+    		<main>
+                <div>
+            	   {{ content }}
+                </div>
+            </main>
+        </div>
     </body>
 </html>
