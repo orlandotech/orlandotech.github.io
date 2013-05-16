@@ -1,9 +1,9 @@
 {
-  "name": "myProject",
+  "name": "Orlando Tech",
   "version": "0.0.1",
-  "main": "assets/styles.css",
   "dependencies": {
     "jquery": "latest",
-  	"normalize-css": "latest"
+    "normalize-css": "latest",
+    "responsive-nav": "~1.0.14"
   }
 }

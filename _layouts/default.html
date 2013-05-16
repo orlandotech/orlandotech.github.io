@@ -5,8 +5,11 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel "shortcut icon" href="/assets/img/favicon.ico">
-        <link rel="stylesheet" type="text/css" href="/components/normalize-css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="/assets/components/normalize-css/normalize.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/assets/components/responsive-nav/responsive-nav.css">
+        <script src="/assets/components/jquery/jquery.min.js"></script>
+        <script src="/assets/components/responsive-nav/responsive-nav.min.js"></script>
 
         <!-- TYPEKIT -->
         <script type="text/javascript" src="//use.typekit.net/tsm2ejn.js"></script>
@@ -14,26 +17,23 @@
 
     </head>
     <body>
-        <div class="wrapper">
-        	<header>
-                <div>
-                    <div><a href='/' class='logo'>Orlando Tech</a></div>
-        			<nav>
-                        <ul>
-            				<li><a href="/meetup">Meetup</a></li>
-            				<li><a href="/groups">Groups</a></li>
-            				<li><a href="/forum">Forum</a></li>
-                            <li><a href="/built-in">Built In</a></li>
-                            <li><a href="/blog">Blog</a></li>
-                        </ul>
-        			</nav>
-                </div>
-    		</header>
-    		<main>
-                <div>
-            	   {{ content }}
-                </div>
-            </main>
-        </div>
+		<nav id="nav">
+            <ul>
+                <li class="active"><a href='/' class='logo'>Orlando Tech</a></li>
+				<li><a href="/meetup">Meetup</a></li>
+				<li><a href="/groups">Groups</a></li>
+				<li><a href="/forum">Forum</a></li>
+                <li><a href="/built-in">Built In</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+		</nav>
+		<main class="main">
+            <div>
+        	   {{ content }}
+            </div>
+        </main>
+        <script>
+            var navigation = responsiveNav("#nav");
+        </script>
     </body>
 </html>
