@@ -18,9 +18,10 @@ Then -
   2. Clone your forked version to your local machine
     `$ git clone git@github.com/<your username>/orlandotech.github.io`
   3. Make your awesome changes
-  4. Commit them like a boss, i.e.
+  4. Install the UI components via [Bower](http://bower.io)
+  5. Commit them like a boss, i.e.
     `$ git add .`
     `$ git commit -m "<leave a nice commit message for everyone>"`
     `$ git push origin master`
-  5. Submit a Pull Request to this version of the repository by clicking the button at the top!
-  6. If it's good, we'll merge and it and give you an air ^5
+  6. Submit a Pull Request to this version of the repository by clicking the button at the top!
+  7. If it's good, we'll merge and it and give you an air ^5
