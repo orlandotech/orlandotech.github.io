@@ -1,3 +1,7 @@
+/**************/
+/** BODY STYLEZ
+/**************/
+
 body {
   min-width: 290px;
   -webkit-font-smoothing: antialiased;
@@ -6,7 +10,7 @@ body {
   text-size-adjust: 100%;
   background: #fff;
 	border: 20px solid #0085ff;
-  font: normal 100%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: normal 100%/1.5 "lft-etica", sans-serif;
 }
 
 h1 {
@@ -54,7 +58,6 @@ a:hover {
   position: fixed;
   top: 1.5em;
   right: 1.5em;
-  width: 76%;
 }
 
 .main::-webkit-scrollbar {
@@ -100,7 +103,7 @@ a:hover {
 #nav a:hover { color: #0085ff; }
 #nav .active a { color: #0085ff; }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 55em) {
   .js #nav {
     clip: rect(0 0 0 0);
     max-height: 0;
@@ -141,18 +144,8 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 76em) {
+@media screen and (min-width: 56em) {
   #nav { width: 18em }
   .main { width: auto; left: 24em }
-}
-
-/*made-in-mco styles*/
-h1#madein {
-  font-size: 3em;
-  line-height: 1;
-  color: #0085ff;
-  margin-bottom: 0em;
-  float: left;
-  width: 100%;
 }
 
