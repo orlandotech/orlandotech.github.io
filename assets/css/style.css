@@ -9,7 +9,6 @@ body {
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background: #fff;
-	border: 20px solid #0085ff;
   font: normal 100%/1.5 "lft-etica", sans-serif;
 }
 
@@ -54,9 +53,9 @@ a:hover {
 }
 
 .main {
-  padding: 1em 4em;
+  padding: 0 4em;
   position: fixed;
-  top: 1.5em;
+  top: 1em;
   right: 1.5em;
 }
 
@@ -146,6 +145,6 @@ a:hover {
 
 @media screen and (min-width: 56em) {
   #nav { width: 18em }
-  .main { width: auto; left: 24em }
+  .main { width: auto; left: 20em }
 }
 
