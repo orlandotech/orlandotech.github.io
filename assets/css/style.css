@@ -17,12 +17,16 @@ h1 {
   line-height: 1;
   color: #0085ff;
   margin-bottom: .5em;
-  float: left;
+  /*float: left;
+   ^^^didn't want to delete this style just in case
+  but it was causing overlapping issues on the Groups & Made In pages */
   width: 100%;
 }
 
 h2 {
-  float: left;
+  /*float: left;
+    ^^^didn't want to delete this style just in case
+  but it was causing overlapping issues on the Groups & Made In pages */
   width: 100%;
   font-size: 1.5em;
   color: #0085ff;
@@ -30,7 +34,9 @@ h2 {
 }
 
 p {
-  float: left;
+  /*float: left;
+    ^^^didn't want to delete this style just in case
+  but it was causing overlapping issues on the Groups & Made In pages */
   width: 100%;
   margin-bottom: 1em;
   color: #0085ff;
@@ -148,3 +154,11 @@ a:hover {
   .main { width: auto; left: 20em }
 }
 
+/*group page styles*/
+.group {
+  border: 6px solid;
+  border-color: gray;
+  padding-left: 6px;
+  margin: 2px 0px 12px 0px;
+  width: 87%;
+}

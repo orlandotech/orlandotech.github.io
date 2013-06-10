@@ -32,3 +32,15 @@ Then -
   5. Submit a Pull Request to this version of the repository by clicking the button at the top!
 
   6. If it's good, we'll merge and it and give you an air ^5
+
+  7. Lastly, be sure and link back to the [orlandote.ch/made-in-orlando](http://orlandote.ch/made-in-orlando) list on your site using any verbiage you like, some examples:
+
+      *   Made in Orlando
+      *   Crafted in Orlando
+      *   Built in The City Beautiful
+      *   Made in MCO
+
+####Still confused about Forking & Pulling & Syncing?
+[GitHub Collaborating](https://help.github.com/categories/63/articles) should make it a little more clear.
+
+Or if you're feeling particularly lazy (don't worry, we often are) send us your company name and website via [@orlndotech](http://twitter.com/orlndotech) and we'll get ya on the list, brah!
