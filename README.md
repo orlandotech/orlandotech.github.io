@@ -11,6 +11,9 @@ So, maybe you saw the list we're trying to keep of the incredibe tech companies 
 #### For those not familiar with Git / GitHub
 Before you do anything else, take the wonderful [Try Git](http://try.github.com) course from Orlando's very own [Code School](http://codeschool.com). This gives you an awesome primer on using Git. Then, read [this](https://help.github.com/articles/set-up-git) and if you still have some questions - Submit an Issue or holla at us [@orlndotech](http://twitter.com/orlndotech).
 
+#### Important notes about this site.
+This website is being served via [GitHub Pages](http://pages.github.com) and is organized as a [Jekyll](http://jekyllrb.com) blog. It's also got components being managed through [Bower](http://bower.io). It's a good idea to read up on how each of those tools work before playing around with this site.
+
 Then -
 
   0. Make sure you have git installed! Read above.
@@ -21,7 +24,7 @@ Then -
 
         $ git clone git@github.com/<your username>/orlandotech.github.io
 
-  3. Make your awesome changes
+  3. Make your awesome changes (bonus points for doing so on a feature branch)
 
   4. Commit them like a boss, i.e.
 
@@ -33,7 +36,7 @@ Then -
 
   6. If it's good, we'll merge and it and give you an air ^5
 
-  7. Lastly, be sure and link back to the [orlandote.ch/made-in-orlando](http://orlandote.ch/made-in-orlando) list on your site using any verbiage you like, some examples:
+  7. Lastly, be sure and link back to the [orlandote.ch/made-in](http://orlandote.ch/made-in) list on your site using any verbiage you like, some examples:
 
       *   Made in Orlando
       *   Crafted in Orlando

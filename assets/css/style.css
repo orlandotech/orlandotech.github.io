@@ -12,6 +12,10 @@ body {
   font: normal 100%/1.5 "lft-etica", sans-serif;
 }
 
+header {
+  padding-top: 2em;
+}
+
 h1 {
   font-size: 4em;
   line-height: 1.125em;
@@ -49,6 +53,21 @@ a:hover {
   outline: 0;
 }
 
+.btn {
+  background: #fff;
+  border: 5px solid #08f;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background: #08f;
+}
+
+.btn:hover a {
+  color: #fff;
+}
+
 .main {
   padding: 0 10em;
   position: fixed;
@@ -67,10 +86,19 @@ a:hover {
   background-color: rgba(0,0,0, .4);
 }
 
+.logo {
+  color: #e6e6e6;
+  font-size: 2em;
+  font-weight: 900;
+  padding: 1em 0 0 1em;
+  width: 100%
+  margin-top: 1em;
+}
+
 #nav {
   position: absolute;
   width: 24%;
-  top: 2em;
+  top: 1em;
   left: 0;
 }
 
@@ -109,6 +137,20 @@ a:hover {
   width: 45%;
   float: left;
   text-align: center;
+}
+
+.group .title {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+ol {
+  color: #0085ff;
+  font-size: 1.5em;
+}
+
+ol li a {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 55em) {
