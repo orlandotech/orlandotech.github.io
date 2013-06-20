@@ -13,20 +13,14 @@ body {
 }
 
 h1 {
-  font-size: 3em;
-  line-height: 1;
+  font-size: 4em;
+  line-height: 1.125em;
   color: #0085ff;
-  margin-bottom: .5em;
-  /*float: left;
-   ^^^didn't want to delete this style just in case
-  but it was causing overlapping issues on the Groups & Made In pages */
+  margin-top: .2em;
   width: 100%;
 }
 
 h2 {
-  /*float: left;
-    ^^^didn't want to delete this style just in case
-  but it was causing overlapping issues on the Groups & Made In pages */
   width: 100%;
   font-size: 1.5em;
   color: #0085ff;
@@ -34,9 +28,6 @@ h2 {
 }
 
 p {
-  /*float: left;
-    ^^^didn't want to delete this style just in case
-  but it was causing overlapping issues on the Groups & Made In pages */
   width: 100%;
   margin-bottom: 1em;
   color: #0085ff;
@@ -101,12 +92,25 @@ a:hover {
 	font-size: 2em;
 	font-weight: 900;
   display: block;
-  padding: .2em 2em;
+  padding: 0 0 0 1em;
   width: 100%;
 }
 
 #nav a:hover { color: #0085ff; }
 #nav .active a { color: #0085ff; }
+
+.active {
+  color: #0085ff !important;
+}
+
+.group {
+  border: 5px solid;
+  border-color: #e6e6e6;
+  margin: 1em 1em 1em 0;
+  width: 47%;
+  float: left;
+  text-align: center;
+}
 
 @media screen and (max-width: 55em) {
   .js #nav {
@@ -152,13 +156,4 @@ a:hover {
 @media screen and (min-width: 56em) {
   #nav { width: 18em }
   .main { width: auto; left: 20em }
-}
-
-/*group page styles*/
-.group {
-  border: 6px solid;
-  border-color: gray;
-  padding-left: 6px;
-  margin: 2px 0px 12px 0px;
-  width: 87%;
 }
