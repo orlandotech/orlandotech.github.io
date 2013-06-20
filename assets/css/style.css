@@ -50,10 +50,9 @@ a:hover {
 }
 
 .main {
-  padding: 0 4em;
+  padding: 0 10em;
   position: fixed;
   top: 1em;
-  right: 1.5em;
 }
 
 .main::-webkit-scrollbar {
@@ -106,8 +105,8 @@ a:hover {
 .group {
   border: 5px solid;
   border-color: #e6e6e6;
-  margin: 1em 1em 1em 0;
-  width: 47%;
+  margin: 1em 2em 1em 0;
+  width: 45%;
   float: left;
   text-align: center;
 }
@@ -155,5 +154,5 @@ a:hover {
 
 @media screen and (min-width: 56em) {
   #nav { width: 18em }
-  .main { width: auto; left: 20em }
+  .main { width: auto; left: 15em }
 }
