@@ -17,8 +17,8 @@ header {
 }
 
 h1 {
-  font-size: 4em;
-  line-height: 1.125em;
+  font-size: 3em;
+  line-height: 1.25em;
   color: #0085ff;
   margin-top: .2em;
   width: 100%;
@@ -35,17 +35,18 @@ p {
   width: 100%;
   margin-bottom: 1em;
   color: #0085ff;
+  font-size: 1.25em;
 }
 
 p.intro {
-  font-size: 1.25em;
+  font-size: 1.5em;
   color: #0085ff;
   font-weight: bold;
 }
 
 a {
   color: #0085ff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:active,
@@ -58,6 +59,11 @@ a:hover {
   border: 5px solid #08f;
   padding: 10px 20px;
   border-radius: 25px;
+  font-size: 110%;
+}
+
+.btn a {
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -91,8 +97,8 @@ a:hover {
   font-size: 2em;
   font-weight: 900;
   padding: 1em 0 0 1em;
-  width: 100%
-  margin-top: 1em;
+  width: 100%;
+  text-decoration: none;
 }
 
 #nav {
@@ -115,12 +121,12 @@ a:hover {
 
 #nav a {
   color: #e6e6e6;
-  font-family: "lft-etica", sans-serif;
 	font-size: 2em;
 	font-weight: 900;
   display: block;
   padding: 0 0 0 1em;
   width: 100%;
+  text-decoration: none;
 }
 
 #nav a:hover { color: #0085ff; }
@@ -144,6 +150,10 @@ a:hover {
   font-weight: bold;
 }
 
+.group a {
+  text-decoration: none;
+}
+
 ol {
   color: #0085ff;
   font-size: 1.5em;
@@ -151,6 +161,7 @@ ol {
 
 ol li a {
   font-weight: bold;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 55em) {
