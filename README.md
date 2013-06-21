@@ -22,7 +22,7 @@ Then -
 
   2. Clone your forked version to your local machine
 
-        $ git clone git@github.com/<your username>/orlandotech.github.io
+        $ git clone git@github.com:<your username>/orlandotech.github.io
 
   3. Make your awesome changes (bonus points for doing so on a feature branch)
 
