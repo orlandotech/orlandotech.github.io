@@ -4,7 +4,11 @@ This is the website for [Orlando Tech](http://orlandote.ch). If you want to do s
 
 
 ## Hey, I want to add my Company to the list!
-TLDR, Submit a [Pull Request](http://github.com/orlandotech/orlandotech.github.io/pulls).
+TLDR, Submit a [Pull Request](http://github.com/orlandotech/orlandotech.github.io/pulls) and add
+
+    <a href="http://orlandote.ch/made-in">Made in Orlando</a>
+
+Or a slight variation to the footer of your product landing page!
 
 So, maybe you saw the list we're trying to keep of the incredibe tech companies coming out of The City Beautiful. And maybe you were all like, hey!! I want to get my startup/product/thing on that list! Well, enough said friend.
 
