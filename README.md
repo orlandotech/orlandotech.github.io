@@ -20,7 +20,7 @@ This website is being served via [GitHub Pages](http://pages.github.com) and is 
 
 Then -
 
-  0. Make sure you have git installed! Read above.
+  0. Make sure you have git installed. Read above.
 
   1. Fork this repository by clicking the "fork" button at the top right of the page
 
@@ -48,6 +48,4 @@ Then -
       *   Made in MCO
 
 ####Still confused about Forking & Pulling & Syncing?
-[GitHub Collaborating](https://help.github.com/categories/63/articles) should make it a little more clear.
-
-Or if you're feeling particularly lazy (don't worry, we often are) send us your company name and website via [@orlndotech](http://twitter.com/orlndotech) and we'll get ya on the list, brah!
+[GitHub Collaborating](https://help.github.com/categories/63/articles) does a great job explaining the social aspects of git and github. You can also click the issues tab in the navigation of this repository and log and issue about the trouble you're having and we'll be right on it!
