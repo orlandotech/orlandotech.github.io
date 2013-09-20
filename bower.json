@@ -1,0 +1,20 @@
+{
+  "name": "orlandotech.github.io",
+  "version": "1.0.1",
+  "homepage": "orlandotech.org",
+  "authors": [
+    "Robb Schiller <robb.schiller@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "normalize-css": "latest"
+  },
+  "license": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
