@@ -1,12 +1,12 @@
 # Orlando Tech
 
-This is the website for [Orlando Tech](http://orlandote.ch). If you want to do something awesome - Do it! i.e. Add your local group or meetup to our [Groups List](http://orlandote.ch/groups) or your startup/product to the [Built In](http://orlandote.ch) list!
+This is the website for [Orlando Tech](http://orlandotech.org/). If you want to do something awesome - Do it! i.e. Add your local group or meetup to our [Groups List](http://orlandotech.org//groups) or your startup/product to the [Built In](http://orlandotech.org/) list!
 
 
 ## Hey, I want to add my Company to the list!
 TLDR, Submit a [Pull Request](http://github.com/orlandotech/orlandotech.github.io/pulls) and add
 
-    <a href="http://orlandote.ch/made-in">Made in Orlando</a>
+    <a href="http://orlandotech.org//made-in">Made in Orlando</a>
 
 Or a slight variation to the footer of your product landing page!
 
@@ -40,7 +40,7 @@ Then -
 
   6. If it's good, we'll merge and it and give you an air ^5
 
-  7. Lastly, be sure and link back to the [orlandote.ch/made-in](http://orlandote.ch/made-in) list on your site using any verbiage you like, some examples:
+  7. Lastly, be sure and link back to the [orlandotech.org](http://orlandotech.org//made-in) list on your site using any verbiage you like, some examples:
 
       *   Made in Orlando
       *   Crafted in Orlando
