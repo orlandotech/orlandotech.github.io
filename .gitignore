@@ -2,3 +2,4 @@
 _site
 .rvmrc
 assets/lib
+node_modules

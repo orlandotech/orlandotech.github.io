@@ -1,0 +1,37 @@
+// ********************
+//
+// Base Project Settings
+//
+// ********************
+
+//
+// Oh. That thing.
+//
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+//
+// Base Typographic Weights
+//
+
+$type-light: 100;
+$type-regular: 400;
+$type-bold: 600;
+
+//
+// Base Typography
+//
+
+$base-type: "Helvetica Neue","Helvetica","Arial",sans-serif;
+$base-type-weight: $type-regular;
+$base-type-size: 16px;
+
+// ********************
+//
+// Import All Modules
+//
+// ********************
+
+@import "../modules/all";

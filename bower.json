@@ -6,8 +6,6 @@
     "Robb Schiller <robb.schiller@gmail.com>"
   ],
   "dependencies": {
-    "jquery": "latest",
-    "normalize-css": "latest"
   },
   "license": "none",
   "ignore": [
